@@ -4,6 +4,12 @@
 {% include head.html %}
 
 <header class="hover smooth">
+    <div class="uk-navbar-left">
+        <a href="{{ '/' | relative_url }}">
+            <img src="{{ '/assets/images/logo-smr-blanco.svg' | relative_url }}" width="100" alt="Logo">
+        </a>
+    </div>
+  
   {% unless site.show_minimal and site.navigation and site.external %}
     <h1 {% if site.navigation and site.external %}class="full"{% endif %}><a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a></h1>
   {% endunless %}
