@@ -1,6 +1,12 @@
 {%- if include.menu -%}
-<nav>
 
+    <div class="uk-navbar-left">
+        <a href="{{ '/' | relative_url }}">
+            <img src="{{ '/assets/images/logo-smr-blanco.svg' | relative_url }}" width="100" alt="Logo">
+        </a>
+    </div>
+
+<nav>
 {%- for item in include.menu -%}
   {%- assign node = site.pages | where: "name", item.file | first -%}
   {%- assign url = item.url | default: node.url -%}
