@@ -1,0 +1,106 @@
+---
+title:  "tres"
+layout: post
+---
+
+[back](./)
+
+# Guía de Estudio
+## Directorio para la Catequesis
+
+### Primera Parte:
+**Capítulo II. La Revelación se aborda describiendo su naturaleza, su propósito, sus acciones y sus fuentes.**
+
+1. Naturaleza de la Catequesis. (nn.55-56)
+2. El Catecumenado, fuente de inspiración para la catequesis. (nn.61-64)
+3. Catequesis de Iniciación Cristiana. (nn.69-72)
+4. Finalidad de la Catequesis. (nn.75-78)
+5. Tareas de la Catequesis. (nn.79-89) y
+6. Fuentes de la Catequesis. (nn.90-109)
+
+***
+
+
+# Guía de Estudio: Directorio para la Catequesis
+
+Esta guía de estudio resume los conceptos clave del **Directorio para la Catequesis 2022**, organizados según los puntos solicitados.
+
+---
+
+## I. La Revelación: Naturaleza, Propósito, Acciones y Fuentes (nn. 11-30)
+
+La Revelación es el fundamento de todo lo que la Iglesia es y hace, basándose en la decisión de Dios de comunicarse a los hombres por bondad y sabiduría.
+
+* **Naturaleza:** Es una iniciativa del amor de Dios orientada a la comunión, donde Dios habla a los hombres como amigos para invitarlos a su compañía.
+* **Propósito:** Su fin es la salvación de la humanidad, ofreciendo una vida nueva (liberación del pecado y adopción como hijos) y el acceso al Padre por el Espíritu Santo.
+* **Acciones (Economía de la Revelación):** Se realiza mediante hechos y palabras intrínsecamente conexos; las obras de Dios confirman la doctrina, y las palabras proclaman las obras. Jesucristo es la plenitud de la Revelación, completándola con su presencia, palabras, milagros y, especialmente, con su muerte y resurrección.
+* **Fuentes y Transmisión:** La Revelación se transmite a través de la Sagrada Escritura y la Tradición, que forman un solo depósito sagrado de la Palabra de Dios. El Magisterio tiene la tarea de interpretar auténticamente esta Palabra.
+
+---
+
+## II. Naturaleza de la Catequesis (nn. 55-56)
+
+La catequesis es un acto de naturaleza eclesial que surge del mandato misionero de Jesús. Su esencia se define por:
+
+* **Hacer resonar el anuncio de la Pascua:** Su objetivo es que la vida de cada hombre sea transformada por el mensaje de Cristo.
+* **Acompañamiento y formación:** Es una realidad dinámica que acompaña, educa y forma en la fe, introduciendo al creyente en la celebración del Misterio.
+* **Etapa de la evangelización:** Generalmente se dirige a quienes ya han recibido el primer anuncio, buscando madurar esa fe inicial.
+
+---
+
+## III. El Catecumenado como Fuente de Inspiración (nn. 61-64)
+
+El catecumenado es la práctica antigua de la Iglesia para iniciar a los no bautizados, pero hoy sirve como fuente de inspiración para toda la catequesis.
+
+* **Inspiración catecumenal:** Se aplica incluso a los ya bautizados que necesitan fortalecer su fe (catecumenado post-bautismal).
+* **Elementos básicos:** Para renovar la catequesis, se deben asumir rasgos del catecumenado como el carácter pascual (centrado en la Pasión y Resurrección), el carácter iniciático, el uso de símbolos y ritos litúrgicos, y la dimensión comunitaria.
+* **Proceso gradual:** Es una experiencia progresiva que respeta el tiempo de maduración de la persona, dividida en etapas: precatecumenado, catecumenado, purificación/iluminación y mistagogia.
+
+---
+
+## IV. Catequesis de Iniciación Cristiana (nn. 69-72)
+
+Esta catequesis conecta la acción misionera con la pastoral, estando estrechamente ligada a los sacramentos del Bautismo, la Confirmación y la Eucaristía. Sus características son:
+
+* **Básica y esencial:** Profundiza en el kerygma y los misterios fundamentales de la fe.
+* **Orgánica y sistemática:** Es coherente, bien articulada y no improvisada.
+* **Integral:** Está abierta a todas las dimensiones de la vida cristiana (fe creída, celebrada, vivida y orada).
+
+---
+
+## V. Finalidad de la Catequesis (nn. 75-78)
+
+El fin definitivo es poner a la persona en comunión e intimidad con Jesucristo.
+
+* **Encuentro vivo:** Busca que el creyente conozca a Jesús, elija su modo de vida y se comprometa con su misión.
+* **Totalidad de la persona:** El proceso involucra mente, cuerpo y, sobre todo, el corazón.
+* **Confesión trinitaria:** La comunión con Cristo lleva necesariamente a la confesión de fe en el Dios Uno y Trino: Padre, Hijo y Espíritu Santo.
+
+---
+
+## VI. Tareas de la Catequesis (nn. 79-89)
+
+Para lograr su finalidad, la catequesis desarrolla cinco tareas fundamentales inspiradas en cómo Jesús formó a sus discípulos:
+
+1.  **Conducir al conocimiento de la fe:** Introducir en la Sagrada Escritura, el Credo y la Tradición.
+2.  **Iniciar en la celebración del Misterio:** Ayudar a comprender y vivir la liturgia y los sacramentos, especialmente la Eucaristía.
+3.  **Formar para la vida en Cristo:** Educar la conciencia moral según el Evangelio y las Bienaventuranzas.
+4.  **Enseñar a orar:** Educar para orar con los sentimientos de Jesús, destacando el Padre Nuestro como modelo.
+5.  **Introducir en la vida comunitaria:** Cultivar la espiritualidad de comunión y el sentido de pertenencia a la Iglesia.
+
+---
+
+## VII. Fuentes de la Catequesis (nn. 90-109)
+
+La catequesis bebe de diversas fuentes que convergen en la Palabra de Dios:
+
+* **Sagrada Escritura y Tradición:** Es la fuente principal y definitiva.
+* **El Magisterio:** Custodia y transmite el depósito de la fe.
+* **La Liturgia:** Es el lugar privilegiado donde la fe se celebra y se vive (*lex credendi, lex orandi*).
+* **Testimonio de santos y mártires:** Son pasajes vivos del Evangelio que anuncian a Cristo.
+* **La Teología:** Ofrece una inteligencia crítica y sistemática de la fe.
+* **La Cultura Cristiana:** El patrimonio histórico, artístico y moral acumulado por siglos.
+* **La Belleza (*via pulchritudinis*):** El camino de la belleza es esencial para llegar al corazón humano y encontrar a Dios.
+
+---
+

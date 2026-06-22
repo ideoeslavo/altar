@@ -1,0 +1,94 @@
+---
+title:  "dos"
+layout: post
+---
+
+
+# Documento Conciliar N° 4 - La Catequesis
+
+**ESCUELA DE TEOLOGÍA, EVANGELIZACIÓN Y CATEQUESIS**
+**MARÍA, MADRE Y MAESTRA**
+
+**Materia:** Catequética I
+**Facilitadora:** Neyla Materano
+
+---
+
+## Lectura del Documento Conciliar #4 La Catequesis, del Concilio Plenario de Venezuela.
+
+Esta guía de estudio sintetiza los puntos fundamentales del Documento Conciliar N° 4, aprobado el 02 de agosto de 2002 por el Concilio Plenario de Venezuela. Su propósito es facilitar la comprensión de la renovación catequética propuesta para la Iglesia en Venezuela, estructurada bajo el método de Ver, Juzgar y Actuar.
+
+---
+
+### I. Glosario de Términos Clave
+
+A continuación se definen los conceptos esenciales utilizados en el documento para una correcta interpretación de la pastoral catequética:
+
+*   **Catequesis:** Acción eclesial que fundamenta y acompaña el crecimiento de la fe del creyente hasta la madurez. Es un aprendizaje o noviciado que inicia en la totalidad de la vida cristiana.
+*   **Kerigma:** El primer anuncio de la Buena Noticia de Jesucristo dirigido a no creyentes o indiferentes, cuya función es llamar a la conversión.
+*   **Iniciación Cristiana:** Proceso gradual, realizado por etapas, para que la persona descubra su ser cristiano y eclesial, asumiendo los valores del Evangelio.
+*   **Catecumenado:** Proceso de formación y preparación (originalmente prebautismal) que sirve de modelo para la iniciación cristiana integral.
+*   **Mistagogía:** Labor educadora de la catequesis que introduce al fiel en la liturgia, los símbolos, ritos y el misterio de Cristo.
+*   **Iglesia Doméstica:** La familia como el primer espacio donde se vive, transmite e irradia el Evangelio y se tiene la primera experiencia de comunidad.
+*   **Inculturación:** Desafío de educar la fe teniendo en cuenta las condiciones socio-religiosas, la cultura popular y el patrimonio católico del venezolano.
+*   **ERE:** Siglas de Educación Religiosa Escolar; enseñanza orgánica del mensaje cristiano en diálogo con la cultura dentro del ámbito escolar.
+
+---
+
+### II. Resumen de Contenidos Fundamentales
+
+#### 1. El Análisis de la Realidad (VER)
+
+El documento identifica una serie de elementos que definen el estado de la catequesis en Venezuela a principios del siglo XXI:
+
+*   **Luces:** Se reconoce el testimonio histórico de catequistas insignes (como Mons. Rafael Arias Blanco) y la participación predominante de la mujer y los laicos profesionales. Existe un cambio positivo del estilo memorístico a uno narrativo y vivencial.
+*   **Sombras:** Persiste un "divorcio entre fe y vida" y una ignorancia religiosa que debilita la práctica. A menudo, la catequesis se reduce a un mero requisito administrativo para recibir sacramentos ("charlas"), sin vinculación con la comunidad.
+*   **Causas:** El ambiente secularizado y el consumismo obstaculizan la fe. Sin embargo, la renovación del concepto de Iglesia como "comunión y misión" tras el Vaticano II favorece una nueva visión participativa.
+
+#### 2. Iluminación Teológico-Pastoral (JUZGAR)
+
+La renovación se basa en seguir la pedagogía de Jesús, quien anunció el Reino con palabras y obras.
+
+*   **Prioridad de los Adultos:** La catequesis de adultos se define como la "forma principal", siendo el punto de referencia para la catequesis de niños y adolescentes.
+*   **Relación con la Liturgia y lo Social:** La catequesis no es puramente doctrinal; debe llevar a la celebración sacramental y a un compromiso ético y solidario (Doctrina Social de la Iglesia).
+*   **Perfil del Catequista:** Es una vocación que brota del Bautismo. El catequista debe ser profeta (anuncia la Palabra), maestro (enseña el camino) y testigo (habla desde su experiencia).
+
+#### 3. Desafíos y Normas Pastorales (ACTUAR)
+
+El Concilio establece cuatro desafíos prioritarios para la Iglesia venezolana:
+
+1.  **Dar prioridad a los adultos:** Implementar itinerarios que permitan una opción personal por Cristo.
+2.  **Renovar la catequesis infantil/juvenil:** Transformar la instrucción presacramental en un verdadero proceso de iniciación.
+3.  **Formación de agentes:** Garantizar escuelas de catequistas a nivel nacional y diocesano.
+4.  **Acompañamiento jerárquico:** Asegurar que obispos y párrocos asuman la dirección personal y la animación de la labor catequética.
+
+---
+
+### III. Cuestionario de Evaluación
+
+Responda las siguientes preguntas basándose exclusivamente en el contenido del documento.
+
+1.  ¿Cuál es la diferencia fundamental entre el Kerigma y la Catequesis según el texto? (Respuesta corta)
+2.  ¿Por qué el documento afirma que la catequesis de adultos es el "eje" de toda la pastoral catequética? (Respuesta corta)
+3.  Indique si la siguiente afirmación es Verdadera (V) o Falsa (F):
+    "La Educación Religiosa Escolar (ERE) y la Catequesis Parroquial son lo mismo, ya que ambas buscan la inserción del niño en la parroquia." (V / F)
+4.  Según el desafío N° 2, ¿en qué debe transformarse la catequesis "presacramental" de niños y adolescentes? (Opción múltiple)
+    a) En una serie de charlas informativas.
+    b) En un proceso de iniciación en la fe que introduzca a la vida comunitaria.
+    c) En un examen de conocimientos memorísticos sobre el Catecismo.
+    d) En un requisito administrativo para el registro parroquial.
+5.  ¿Qué dimensiones comprende la formación integral de un catequista? (Selección)
+    a) El Ser, el Saber y el Saber Hacer.
+    b) Solo el conocimiento doctrinal del Catecismo.
+    c) La pedagogía y el manejo de grupos escolares únicamente.
+    d) El cumplimiento de horas de servicio comunitario.
+
+---
+
+### IV. Clave de Respuestas
+
+1.  **Diferencia Kerigma/Catequesis:** El Kerigma es el primer anuncio para suscitar la fe y la conversión (etapa precatequética), mientras que la catequesis fundamenta y hace madurar esa conversión inicial, educando en la fe e incorporando al fiel a la comunidad.
+2.  **Eje de la pastoral:** Porque se dirige a personas capaces de una adhesión plenamente responsable y porque todas las demás formas de catequesis (niños, jóvenes) se ordenan de alguna manera a ella.
+3.  **Falsa (F):** El documento distingue que la ERE pertenece al ámbito escolar y al diálogo con la cultura/ciencias, mientras que la Catequesis corresponde al ámbito de la comunidad eclesial y busca la vivencia de la fe.
+4.  **Respuesta b:** En un proceso de iniciación en la fe que introduzca a la vida de la comunidad.
+5.  **Respuesta a:** El Ser (referencia a la espiritualidad y persona), el Saber (conocimiento del mensaje y el contexto) y el Saber Hacer (dimensión pedagógica y comunicativa).
