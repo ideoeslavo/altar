@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<article class="uk-article uk-container uk-margin-large-top">
+
+    <div class="uk-margin-bottom">
+        <p class="uk-text-primary uk-text-bold uk-text-uppercase uk-margin-remove-bottom">
+            {{ page.codigo }}
+        </p>
+        <h1 class="uk-article-title uk-margin-remove-top">{{ page.titulo }}</h1>
+    </div>
+
+    <div class="uk-card uk-card-body uk-card-default uk-margin-bottom" style="background-color: #f9f9f9;">
+        <div class="uk-grid-small" uk-grid>
+            <div class="uk-width-expand">
+                <progress class="uk-progress uk-margin-remove" value="{{ page.progreso }}" max="100"></progress>
+            </div>
+            <div class="uk-width-auto">
+                <span class="uk-text-bold">{{ page.progreso }}% Completado</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="uk-grid-large" uk-grid>
+        <div class="uk-width-2-3@m">
+            <div class="uk-article-body">
+                {{ content }}
+            </div>
+        </div>
+
+        <div class="uk-width-1-3@m">
+            <div class="uk-card uk-card-default uk-card-body uk-text-small" style="border-top: 3px solid #7d2638;">
+                <h3 class="uk-h4">Ficha Técnica</h3>
+                <ul class="uk-list uk-list-divider">
+                    <li><strong>Profesor:</strong> {{ page.profesor }}</li>
+                    <li><strong>Semestre:</strong> {{ page.semestre }}</li>
+                    <li><strong>Créditos:</strong> {{ page.creditos }}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</article>
