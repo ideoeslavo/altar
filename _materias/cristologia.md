@@ -1,7 +1,7 @@
 ---
 layout: materia
-titulo: "Libro de Rut"
-codigo: "TEO-101"
+titulo: "Cristología"
+codigo: "TEO-103"
 progreso: 85
 semestre: "I Semestre"
 ---
