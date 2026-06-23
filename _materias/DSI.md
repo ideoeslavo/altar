@@ -1,8 +1,8 @@
 ---
 layout: materia
-titulo: "Libro de Rut"
-codigo: "TEO-101"
-progreso: 85
+titulo: "DSI"
+codigo: "TEO-102"
+progreso: 75
 semestre: "I Semestre"
 ---
 
