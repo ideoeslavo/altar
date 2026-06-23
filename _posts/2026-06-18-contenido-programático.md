@@ -11,7 +11,6 @@
 | 7   | RECURSOS DIDÁCTICOS.                                                                                                                                                                                                               |
 
 ## 2. Plan de Evaluación
-## 2. Plan de Evaluación
 
 ### Actividades:
 
@@ -30,16 +29,6 @@
 *   **Puntos Totales:** 20
 
 **Nota:** Considera cómo el "Taller CPV Dic. 4" y la "Asistencia" encajan en esta estructura. Podrían ser parte de las descripciones o encabezados separados si son realmente distintas.
-
-
-
-
-
-
-
-
-
-
 
 
 ## 3. Cronograma de Clases
