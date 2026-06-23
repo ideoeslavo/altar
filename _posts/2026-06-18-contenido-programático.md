@@ -31,12 +31,40 @@
 
 **Nota:** Considera cómo el "Taller CPV Dic. 4" y la "Asistencia" encajan en esta estructura. Podrían ser parte de las descripciones o encabezados separados si son realmente distintas.
 
+
+
+
+
+
+
+
+
+
+
+
 ## 3. Cronograma de Clases
 
-| N.º | Fecha       | Contenido         |
-|-----|-------------|-------------------|
-| 1   | 20/06/2026  | Contenido 1       |
-| 2   | 20/06/2026  | Contenido 2 y 3   |
-| 3   | 04/07/2026  | Contenidos 6 y 7  |
-| 4   | 11/07/2026  | Contenido 4 y 5   |
-<br>
+## 2. Plan de Evaluación
+
+### Actividades:
+
+1.  **Actividad Principal 1:**
+    *   **Guía de Estudio Nro. 1**
+        *   Fecha: 20/06/2026, Porcentaje: 20%, Puntos: 4 (Tipo C)
+    *   **Revisión Cuaderno**
+        *   Fecha: 27/06/2026, Porcentaje: 20%, Puntos: 4 (Tipo D)
+    *   Fecha final: 11/07/2026
+
+2.  **Actividad Principal 2:**
+    *   **Entrega Encuentro de Catequesis**
+        *   Porcentaje: 20%, Puntos: 4 (Tipo E)
+    *   **Puntualidad e Intervenciones**
+        *   Fecha: 04/07/2026, Porcentaje: 20%, Puntos: 4 (Tipo F)
+    *   Otras: 10% de Puntos: 2
+
+---
+
+### Resumen de Calificación:
+
+*   **Porcentaje Total:** 100%
+*   **Puntos Totales:** 20
