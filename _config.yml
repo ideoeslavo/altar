@@ -1,34 +1,32 @@
-title: ""
-author: ""
-description: "Un blog de estudio"
-permalink: /:title/
-lang: "en"
+title: "Escuela de Teología"
+author: "Eduardo Napierala"
+description: "Plataforma de evaluación y seguimiento académico"
+permalink: /:collection/:title/
+lang: "es"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
 
-# Layout
+# --- MODIFICACIONES PARA EL DASHBOARD ---
 
-show_excerpts: true             # show article excerpts instead of archive list on the home page
-show_frame: true                # display a grey frame on large screens
-show_sidebar: true             # show a sidebar instead of the usual header
-show_minimal: true             # remove all clutter
+# Desactivamos el modo blog minimalista
+show_excerpts: false           
+show_frame: true                
+show_sidebar: false            # Cambiado a false para usar el layout de UIkit completo
+show_minimal: false            # Desactivado para permitir mayor libertad de diseño
 
-#show_frame: "/assets/images/background.svg"
+# Definición de la nueva estructura
+collections:
+  materias:
+    output: true
 
-# Menu                          # for available icons see https://fontawesome.com/v5/icons/
+# Navigation actualizada para tu Escuela
+navigation:
+  - {file: "index.html", title: "Dashboard", sidebaricon: home}
+  - {file: "materias.html", title: "Materias", sidebaricon: book}
 
-navigation:                     # accepts {file, title, url, icon, sidebaricon}
-  - {file: "archive.html", sidebaricon: home}
-  - {file: "README.md", sidebaricon: address-card}
-
-external:                       # accepts {file, title, url, icon, sidebaricon}
-  - {title: Mail, icon: envelope, url: "mailto:author@example.com"}
+# Mantén tus enlaces externos preferidos
+external:
   - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/contrast"}
-  - {title: Subscribe, icon: rss, url: "/feed.xml"}
-
-comments:
-#  disqus_shortname: ""         # see https://disqus.com
-#  isso_domain: ""              # see https://isso-comments.de
 
 plugins:
  - jekyll-feed
