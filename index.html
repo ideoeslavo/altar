@@ -3,33 +3,19 @@ layout: default
 title: "Escuela de Teología"
 ---
 
-<!-- Header con contraste -->
 <div class="uk-background-primary uk-light uk-padding">
     <div class="uk-container">
         <h5>Escuela de Teología, Evangelización y Catequesis</h5>
         <h1>María, Madre y Maestra</h1>
-        <div class="uk-grid-divider uk-child-width-1-4@m" uk-grid>
-            <div><h5>6 <span class="uk-text-small">MATERIAS CURSADAS</span></h5></div>
-            <div><h5>22 <span class="uk-text-small">TOTAL CRÉDITOS</span></h5></div>
-            <div><h5>73% <span class="uk-text-small">PROGRESO PROMEDIO</span></h5></div>
-            <div><h5>1/6 <span class="uk-text-small">MATERIAS COMPLETAS</span></h5></div>
         </div>
-    </div>
 </div>
 
-<!-- Filtros de Semestre -->
 <div class="uk-container uk-margin-medium-top">
-    <ul class="uk-subnav uk-subnav-pill" uk-switcher>
-        <li><a href="#">TODAS LAS MATERIAS</a></li>
-        <li><a href="#">I SEMESTRE</a></li>
-        <li><a href="#">II SEMESTRE</a></li>
-    </ul>
-
-    <!-- Grid de Materias -->
-    <div class="uk-grid-small uk-child-width-1-2@m" uk-grid>
+    <div class="uk-grid-small uk-child-width-1-3@m" uk-grid>
         {% for materia in site.materias %}
         <div>
-            <div class="uk-card uk-card-default uk-card-body">
+            <div class="uk-card uk-card-default uk-card-body uk-card-hover" 
+                 uk-toggle="target: #detalle-{{ materia.slug }}; animation: uk-animation-fade">
                 <div class="uk-flex uk-flex-between">
                     <span class="uk-text-meta">{{ materia.codigo }}</span>
                     <span class="uk-text-bold">{{ materia.progreso }}%</span>
@@ -37,6 +23,24 @@ title: "Escuela de Teología"
                 <h3 class="uk-card-title uk-margin-small-top">{{ materia.titulo }}</h3>
                 <progress class="uk-progress" value="{{ materia.progreso }}" max="100"></progress>
                 <p class="uk-text-small">{{ materia.semestre }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <div class="uk-margin-large-top">
+        {% for materia in site.materias %}
+        <div id="detalle-{{ materia.slug }}" hidden>
+            <div class="uk-card uk-card-secondary uk-card-body">
+                <button class="uk-close-large" type="button" uk-close uk-toggle="target: #detalle-{{ materia.slug }}"></button>
+                
+                <h2 class="uk-margin-remove-top">{{ materia.titulo }}</h2>
+                <p class="uk-text-meta">Pbro. {{ materia.profesor }}</p>
+                <progress class="uk-progress" value="{{ materia.progreso }}" max="100"></progress>
+                
+                <div class="uk-margin-top">
+                    {{ materia.content }}
+                </div>
             </div>
         </div>
         {% endfor %}
