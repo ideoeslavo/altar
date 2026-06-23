@@ -11,11 +11,25 @@
 | 7   | RECURSOS DIDÁCTICOS.                                                                                                                                                                                                               |
 
 ## 2. Plan de Evaluación
-| Ítem         | Actividad           | Fecha      | Porcentaje | Puntos | --- | --- | --- | --- | Asistencia | -- | -- | -- | -- | Taller CPV Dic. 4 |
-|--------------|---------------------|------------|------------|--------|-----|-----|-----|-----|------------|----|----|----|----|-------------------|
-| 1 | 20/06/2026 | 20% | 4 | | C | Guía de Estudio Nro. 1 | 27/06/2026 | 20% | 4 | | D | Revisión Cuaderno | 11/07/2026 | |
-| 2 | 20% | 4 | | E | Entrega Encuentro de Catequesis | 04/07/2026 | 20% | 4 | | F | Puntualidad e Intervenciones | - | 10% | 2 |
-| Total | | | 100% | 20 |
+## 2. Plan de Evaluación
+
+### Actividades:
+
+| N.º | Fecha       | Porcentaje | Puntos | Tipo | Descripción                       |
+|-----|-------------|------------|--------|------|-----------------------------------|
+| 1   | 20/06/2026  | 20%        | 4      | C    | Guía de Estudio Nro. 1            |
+|     | 27/06/2026  | 20%        | 4      | D    | Revisión Cuaderno                 |
+|     | 11/07/2026  |            |        |      |                                   |
+| 2   |             | 20%        | 4      | E    | Entrega Encuentro de Catequesis   |
+|     | 04/07/2026  | 20%        | 4      | F    | Puntualidad e Intervenciones      |
+|     | -           | 10%        | 2      |      |                                   |
+
+**Total General:**
+
+*   **Porcentaje Total:** 100%
+*   **Puntos Totales:** 20
+
+**Nota:** Considera cómo el "Taller CPV Dic. 4" y la "Asistencia" encajan en esta estructura. Podrían ser parte de las descripciones o encabezados separados si son realmente distintas.
 
 ## 3. Cronograma de Clases
 | N.º | Fecha       | Contenido                                 |
