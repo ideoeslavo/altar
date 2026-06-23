@@ -11,7 +11,7 @@ date_format: "%B %d, %Y"
 # Desactivamos el modo blog minimalista
 show_excerpts: false           
 show_frame: true                
-show_sidebar: false            # Cambiado a false para usar el layout de UIkit completo
+show_sidebar: true            # Cambiado a false para usar el layout de UIkit completo
 show_minimal: false            # Desactivado para permitir mayor libertad de diseño
 
 # Definición de la nueva estructura
