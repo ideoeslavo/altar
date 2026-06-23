@@ -23,6 +23,7 @@ collections:
 navigation:
   - {file: "index.html", title: "Dashboard", sidebaricon: home}
   - {file: "materias.html", title: "Materias", sidebaricon: book}
+  - {file: "archive.html", sidebaricon: home}
 
 # Mantén tus enlaces externos preferidos
 external:
