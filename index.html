@@ -1,66 +1,47 @@
----
-layout: default
-title: "Escuela de Teología"
----
-
-<div class="uk-background-primary uk-light uk-padding">
-    <div class="uk-container">
-        <h5>Escuela de Teología, Evangelización y Catequesis</h5>
-        <h1>María, Madre y Maestra</h1>
-        <div class="uk-grid-divider uk-child-width-1-4@m" uk-grid>
-            <div><h5>6 <span class="uk-text-small">MATERIAS CURSADAS</span></h5></div>
-            <div><h5>22 <span class="uk-text-small">TOTAL CRÉDITOS</span></h5></div>
-            <div><h5>73% <span class="uk-text-small">PROGRESO PROMEDIO</span></h5></div>
-            <div><h5>1/6 <span class="uk-text-small">MATERIAS COMPLETAS</span></h5></div>
-        </div>
-    </div>
-</div>
-
 <div class="uk-container uk-margin-medium-top">
     
     <div class="uk-grid-small uk-child-width-1-3@m" uk-grid>
         {% for materia in site.materias %}
         <div>
             <div class="uk-card uk-card-default uk-card-body uk-card-hover" 
-                 uk-toggle="target: #detalle-{{ materia.slug }}; animation: uk-animation-fade">
+                 uk-switcher-item="{{ forloop.index0 }}">
                 <div class="uk-flex uk-flex-between">
                     <span class="uk-text-meta">{{ materia.codigo }}</span>
                     <span class="uk-text-bold">{{ materia.progreso }}%</span>
                 </div>
                 <h3 class="uk-card-title uk-margin-small-top">{{ materia.titulo }}</h3>
                 <progress class="uk-progress" value="{{ materia.progreso }}" max="100"></progress>
-                <p class="uk-text-small">{{ materia.semestre }}</p>
             </div>
         </div>
         {% endfor %}
     </div>
 
-    <div class="uk-margin-large-top">
-        {% for materia in site.materias %}
-        <div id="detalle-{{ materia.slug }}" hidden>
-            <div class="uk-card uk-card-secondary uk-card-body">
-                
-                <div class="uk-flex uk-flex-between uk-flex-middle">
-                    <h2 class="uk-margin-remove">{{ materia.titulo }}</h2>
-                    <button class="uk-close-large" type="button" uk-close uk-toggle="target: #detalle-{{ materia.slug }}"></button>
+    <div class="uk-margin-large-top" uk-switcher="connect: #grupo-materias; animation: uk-animation-fade">
+        <ul id="grupo-materias" class="uk-switcher">
+            {% for materia in site.materias %}
+            <li> <div class="uk-card uk-card-secondary uk-card-body">
+                    <div class="uk-flex uk-flex-between uk-flex-middle">
+                        <h2 class="uk-margin-remove">{{ materia.titulo }}</h2>
+                        <a href="#" class="uk-close-large" uk-switcher-item="previous"></a>
+                    </div>
+                    
+                    <p class="uk-text-meta uk-margin-remove-top">Pbro. {{ materia.profesor }}</p>
+                    <progress class="uk-progress" value="{{ materia.progreso }}" max="100"></progress>
+
+                    <ul class="uk-subnav uk-subnav-pill" uk-switcher="connect: #switcher-{{ materia.slug }}">
+                        <li><a href="#">Temas</a></li>
+                        <li><a href="#">Evaluación</a></li>
+                        <li><a href="#">Contenido</a></li>
+                    </ul>
+
+                    <ul id="switcher-{{ materia.slug }}" class="uk-switcher uk-margin">
+                        <li><div class="uk-card uk-card-default uk-card-body">{{ materia.temas_content | markdownify }}</div></li>
+                        <li><div class="uk-card uk-card-default uk-card-body">{{ materia.evaluacion_content | markdownify }}</div></li>
+                        <li><div class="uk-card uk-card-default uk-card-body">{{ materia.contenido_programatico | markdownify }}</div></li>
+                    </ul>
                 </div>
-                
-                <p class="uk-text-meta uk-margin-remove-top">Pbro. {{ materia.profesor }}</p>
-                <progress class="uk-progress" value="{{ materia.progreso }}" max="100"></progress>
-
-                <ul class="uk-subnav uk-subnav-pill" uk-switcher="connect: #switcher-{{ materia.slug }}">
-                    <li><a href="#">Temas Estudiados</a></li>
-                    <li><a href="#">Plan de Evaluación</a></li>
-                    <li><a href="#">Contenido Programático</a></li>
-                </ul>
-
-                <ul id="switcher-{{ materia.slug }}" class="uk-switcher uk-margin">
-                    <li><div class="uk-card uk-card-default uk-card-body">{{ materia.temas_content | markdownify }}</div></li>
-                    <li><div class="uk-card uk-card-default uk-card-body">{{ materia.evaluacion_content | markdownify }}</div></li>
-                    <li><div class="uk-card uk-card-default uk-card-body">{{ materia.contenido_programatico | markdownify }}</div></li>
-                </ul>
-            </div>
-        </div>
-        {% endfor %}
+            </li>
+            {% endfor %}
+        </ul>
     </div>
 </div>
