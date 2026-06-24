@@ -18,8 +18,7 @@ title: "Escuela de Teología Evangelización y Catequesis"
 </div>
 
 
-<div class="uk-section uk-section-muted uk-section-xsmall">
-    
+<!--<div class="uk-section uk-section-muted uk-section-xsmall">
 <div class="uk-container uk-margin-medium-top uk-container-xsmall">
     
     <div class="uk-grid-small uk-child-width-1-3@m" uk-grid>
@@ -39,12 +38,46 @@ title: "Escuela de Teología Evangelización y Catequesis"
         {% endfor %}
 
     </div>
+</div>-->
+
+
+
+
+
+<div class="uk-grid-small uk-child-width-1-3@m" uk-grid uk-switcher="connect: #contenedor-detalles">
+    {% for materia in site.materias %}
+        <div>
+            <div class="uk-card uk-card-default uk-card-body uk-card-hover" style="cursor: pointer;">
+                <div class="uk-flex uk-flex-between">
+                    <span class="uk-text-meta">{{ materia.codigo }}</span>
+                    <span class="uk-text-bold">{{ materia.progreso }}%</span>
+                </div>
+                <h3 class="uk-card-title uk-margin-small-top">{{ materia.titulo }}</h3>
+                <progress class="uk-progress" value="{{ materia.progreso }}" max="100"></progress>
+                <p class="uk-text-small">{{ materia.semestre }}</p>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+<div class="uk-margin-large-top" id="contenedor-detalles">
+    {% for materia in site.materias %}
+        <div id="detalle-{{ materia.slug }}"> <div class="uk-card uk-card-secondary uk-card-body">  
+                <div class="uk-flex uk-flex-between uk-flex-middle">
+                    <h2 class="uk-margin-remove">{{ materia.titulo }}</h2>
+                    <button class="uk-close-large" type="button" uk-close onclick="UIkit.switcher('#contenedor-detalles').show(false)"></button>
+                </div>
+                </div>
+        </div>
+    {% endfor %}
 </div>
 
 
+    
 
 
-<div class="uk-section  uk-section-xsmall">
+
+
+<!--<div class="uk-section  uk-section-xsmall">
 <div class="uk-container uk-margin-medium-top uk-container-xsmall">
 
     <div class="uk-margin-large-top">
@@ -75,7 +108,7 @@ title: "Escuela de Teología Evangelización y Catequesis"
         {% endfor %}
     </div>
 </div>
-</div>
+</div>-->
 
 
 <!--de aqui-->
@@ -111,6 +144,6 @@ title: "Escuela de Teología Evangelización y Catequesis"
 </div><br>
 <!--a aqui-->
     
-<div><footer class="button"><a href="{{ post.url | relative_url }}">read more</a></footer></div> 
+
     
 </div> 
