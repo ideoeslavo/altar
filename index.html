@@ -1,67 +1,117 @@
 ---
 layout: default
 title: "Escuela de Teología Evangelización y Catequesis"
----
+--- 
 
 <div class="uk-background-primary uk-light uk-padding uk-section-xsmall">
+
     <div class="uk-container uk-container-xsmall">
         <h5>Escuela de Teología, Evangelización y Catequesis</h5>
         <h3>María, Madre y Maestra</h3>
+        <!--<div class="uk-grid-divider uk-child-width-1-4@m" uk-grid>
+            <div><h5>6 <span class="uk-text-small">MATERIAS CURSADAS</span></h5></div>
+            <div><h5>22 <span class="uk-text-small">TOTAL CRÉDITOS</span></h5></div>
+            <div><h5>73% <span class="uk-text-small">PROGRESO PROMEDIO</span></h5></div>
+            <div><h5>1/6 <span class="uk-text-small">MATERIAS COMPLETAS</span></h5></div>
+        </div>-->
     </div>
 </div>
+
 
 <div class="uk-section uk-section-muted uk-section-xsmall">
-    <div class="uk-container uk-margin-medium-top uk-container-xsmall">
-        
-        <div uk-accordion="multiple: false; collapsible: true">
-            
-            {% for materia in site.materias %}
-            <div>
-                <a class="uk-accordion-title uk-card uk-card-default uk-card-body uk-card-hover uk-margin-small-bottom" href="#">
-                    <div class="uk-flex uk-flex-between">
-                        <span class="uk-text-meta">{{ materia.codigo }}</span>
-                        <span class="uk-text-bold">{{ materia.progreso }}%</span>
-                    </div>
-                    <h3 class="uk-card-title uk-margin-small-top">{{ materia.titulo }}</h3>
-                    <progress class="uk-progress" value="{{ materia.progreso }}" max="100"></progress>
-                    <p class="uk-text-small">{{ materia.semestre }}</p>
-                </a>
-
-                <div class="uk-accordion-content">
-                    <div class="uk-card uk-card-secondary uk-card-body">  
-                        <div class="uk-flex uk-flex-between uk-flex-middle">
-                            <h2 class="uk-margin-remove">{{ materia.titulo }}</h2>
-                        </div>
-
-                        <p class="uk-text-meta uk-margin-remove-top">Pbro. {{ materia.profesor }}</p>
-                        <progress class="uk-progress" value="{{ materia.progreso }}" max="100"></progress>
-                        
-                        <ul class="uk-subnav uk-subnav-pill" uk-switcher="connect: #switcher-{{ materia.slug }}">
-                            <li><a href="#">Temas Estudiados</a></li>
-                            <li><a href="#">Plan de Evaluación</a></li>
-                            <li><a href="#">Contenido Programático</a></li>
-                        </ul>
-
-                        <ul id="switcher-{{ materia.slug }}" class="uk-switcher uk-margin">
-                            <li><div class="uk-card uk-card-default uk-card-body">{{ materia.temas_content | markdownify }}</div></li>
-                            <li><div class="uk-card uk-card-default uk-card-body">{{ materia.evaluacion_content | markdownify }}</div></li>
-                            <li><div class="uk-card uk-card-default uk-card-body">{{ materia.contenido_programatico | markdownify }}</div></li>
-                        </ul>
-                    </div>
+<div class="uk-container uk-margin-medium-top uk-container-xsmall">
+    
+    <div class="uk-grid-small uk-child-width-1-3@m" uk-grid>
+        {% for materia in site.materias %}
+        <div>
+            <div class="uk-card uk-card-default uk-card-body uk-card-hover" 
+                 uk-toggle="target: #detalle-{{ materia.slug }}; animation: uk-animation-fade">
+                <div class="uk-flex uk-flex-between">
+                    <span class="uk-text-meta">{{ materia.codigo }}</span>
+                    <span class="uk-text-bold">{{ materia.progreso }}%</span>
                 </div>
+                <h3 class="uk-card-title uk-margin-small-top">{{ materia.titulo }}</h3>
+                <progress class="uk-progress" value="{{ materia.progreso }}" max="100"></progress>
+                <p class="uk-text-small">{{ materia.semestre }}</p>
             </div>
-            {% endfor %}
-        </div> 
+        </div>
+        {% endfor %}
 
     </div>
 </div>
 
-<div class="uk-section uk-section-xsmall">
-    <div class="uk-container uk-container-xsmall">
-        <div class="uk-child-width-1-2@m uk-grid-small uk-grid-match" uk-grid>
-             <div>
-                <img src="{{ '/assets/images/background.svg' | relative_url }}" alt="Logo">
+
+
+
+
+
+<div class="uk-section  uk-section-xsmall">
+<div class="uk-container uk-margin-medium-top uk-container-xsmall">
+
+    <div class="uk-margin-large-top">
+        {% for materia in site.materias %}
+        <div id="detalle-{{ materia.slug }}" hidden>
+            <div class="uk-card uk-card-secondary uk-card-body">  
+                <div class="uk-flex uk-flex-between uk-flex-middle">
+                    <h2 class="uk-margin-remove">{{ materia.titulo }}</h2>
+                    <button class="uk-close-large" type="button" uk-close uk-toggle="target: #detalle-{{ materia.slug }}"></button>
+                </div>
+
+                <p class="uk-text-meta uk-margin-remove-top">Pbro. {{ materia.profesor }}</p>
+                <progress class="uk-progress" value="{{ materia.progreso }}" max="100"></progress>
+                <ul class="uk-subnav uk-subnav-pill" uk-switcher="connect: #switcher-{{ materia.slug }}">
+                    <li><a href="#">Temas Estudiados</a></li>
+                    <li><a href="#">Plan de Evaluación</a></li>
+                    <li><a href="#">Contenido Programático</a></li>
+                </ul>
+
+                <ul id="switcher-{{ materia.slug }}" class="uk-switcher uk-margin">
+                    <li><div class="uk-card uk-card-default uk-card-body">{{ materia.temas_content | markdownify }}</div></li>
+                    <li><div class="uk-card uk-card-default uk-card-body">{{ materia.evaluacion_content | markdownify }}</div></li>
+                    <li><div class="uk-card uk-card-default uk-card-body">{{ materia.contenido_programatico | markdownify }}</div></li>
+                </ul>
+
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+</div>
+
+
+<!--de aqui-->
+<div class="uk-child-width-1-2@m uk-grid-small uk-grid-match" uk-grid>
+    <div>
+        <div class="uk-card uk-card-default uk-card-body">
+            <h3 class="uk-card-title">Default</h3>
+            <p>Lorem ipsum <a href="#">dolor</a> sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-primary uk-card-body">
+            <h3 class="uk-card-title">Primary</h3>
+            <p>Lorem ipsum <a href="#">dolor</a> sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-secondary uk-card-body">
+            <h3 class="uk-card-title">Secondary</h3>
+            <p>Lorem ipsum <a href="#">dolor</a> sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </div>
+    <div>
+        <div class="uk-inline-clip">
+            <!--<img src="images/background.svg" width="1800" height="1200" alt="">-->
+            <img src="{{ '/assets/images/background.svg' | relative_url }}" width="1800" height="1200" alt="Logo">
+            <div class="uk-card uk-card-overlay uk-card-body uk-position-cover uk-position-small">
+                <h3 class="uk-card-title">Overlay</h3>
+                <p>Lorem ipsum <a href="#">dolor</a> sit amet, consectetur adipiscing elit.</p>
             </div>
         </div>
     </div>
-</div>
+</div><br>
+<!--a aqui-->
+    
+
+    
+</div> 
