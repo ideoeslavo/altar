@@ -1,8 +1,8 @@
 ---
 layout: materia
 titulo: "Cristología"
-slug: "TEO-102"
-profesor: "Fernando Aguilar"
+slug: "TEO-103"
+profesor: "Ferna"
 progreso: 20
 semestre: "III Semestre"
 
