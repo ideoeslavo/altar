@@ -1,10 +1,10 @@
 ---
 layout: materia
 titulo: "Catequêtica I"
-slug: "cate"
-profesor: "Neila"
+slug: "TEO-104"
+profesor: "Neyla Materano"
 progreso: 20
-semestre: "III Semestre"
+semestre: "I Semestre"
 
 # Contenido para el Switcher
 temas_content: |
@@ -20,7 +20,11 @@ evaluacion_content: |
   * **Examen final dogmático:** 40%
 
 contenido_programatico: |
-  Estudio sistemático de la persona y la obra de Jesucristo. Análisis de las 
-  definiciones dogmáticas, la cristología bíblica y el pensamiento 
-  cristológico contemporáneo.
+  1   EVANGELIZACIÓN Y CATEQUESIS
+  2   FINALIDAD Y TAREAS DE LA CATEQUESIS (Directorio para la Catequesis) 
+  3   LA PERSONA DEL CATEQUISTA (Libros: Comunidad Marista, Directorio para la catequesis y AIDM)
+  4   LA ESPIRITUALIDAD DEL CATEQUISTA
+  5   LA ORACIÓN Y LA EXPERIENCIA DE DIOS
+  6   ACTO CATEQUÉTICO Y MÉTODO ANTROPOLÓGICO
+  7   RECURSOS DIDÁCTICOS.
 ---
